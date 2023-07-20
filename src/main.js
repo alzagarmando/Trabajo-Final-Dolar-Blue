@@ -1,1 +1,1 @@
-import './app.esjs'
+import './dolarblueapp.esjs'
