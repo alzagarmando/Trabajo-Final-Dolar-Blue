@@ -35,9 +35,7 @@ asincrono funcion inicio() {
     !importar.meta.env.VITE_TOKEN ||
     importar.meta.env.VITE_TOKEN.recortarEspacios() == ""
   ) {
-    retornar Terminal.escribir(
-      tiza.fondoRojo('Debes definir la Variable de Entorno "VITE_TOKEN"')
-    )
+    
   }
 
   Terminal.escribir("Hola! Ingresa la contraseña")
