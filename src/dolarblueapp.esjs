@@ -30,13 +30,6 @@ asincrono funcion obtenerCotizacion() {
 }
 
 asincrono funcion inicio() {
-  si (
-    !importar.meta.env ||
-    !importar.meta.env.VITE_TOKEN ||
-    importar.meta.env.VITE_TOKEN.recortarEspacios() == ""
-  ) {
-    
-  }
 
   Terminal.escribir("Hola! Ingresa la contraseña")
 
